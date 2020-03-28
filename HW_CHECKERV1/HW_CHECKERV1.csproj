@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VIEWS\wn_dropFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\wn_dropFiles.Designer.cs">
+      <DependentUpon>wn_dropFiles.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\wn_welcome.cs">
       <SubType>Form</SubType>
     </Compile>
