@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VIEWS\tests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\tests.Designer.cs">
+      <DependentUpon>tests.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\wn_welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="VIEWS\tests.resx">
+      <DependentUpon>tests.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
